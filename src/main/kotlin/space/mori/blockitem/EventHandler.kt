@@ -17,7 +17,10 @@ object EventHandler: Listener {
         if (event.slotType == InventoryType.SlotType.ARMOR) {
             val itemName = event.currentItem.data.itemType.name
 
-            if (!event.whoClicked.hasPermission("blockitem.armor.$itemName")) {
+            if (
+                !event.whoClicked.hasPermission("blockitem.armor.$itemName") &&
+                !event.whoClicked.hasPermission("blockitem.armor.*")
+            ) {
                 event.isCancelled = true
             }
         }
@@ -29,12 +32,18 @@ object EventHandler: Listener {
             val itemName = event.item.data.itemType.name
             when {
                 itemName == Material.BOW.name -> {
-                    if (!event.player.hasPermission("blockitem.use.$itemName")) {
+                    if (
+                        !event.player.hasPermission("blockitem.use.$itemName") &&
+                        !event.player.hasPermission("blockitem.use.*")
+                    ) {
                         event.isCancelled = true
                     }
                 }
                 tools.contains(itemName) -> {
-                    if (!event.player.hasPermission("blockitem.use.$itemName")) {
+                    if (
+                        !event.player.hasPermission("blockitem.use.$itemName") &&
+                        !event.player.hasPermission("blockitem.use.*")
+                    ) {
                         event.isCancelled
                     }
                 }
@@ -48,7 +57,10 @@ object EventHandler: Listener {
             val itemName = (event.damager as Player).inventory.itemInMainHand.type.name
 
             if (tools.contains(itemName)) {
-                if (!event.damager.hasPermission("blockitem.use.$itemName")) {
+                if (
+                    !event.damager.hasPermission("blockitem.use.$itemName") &&
+                    !event.damager.hasPermission("blockitem.use.*")
+                ) {
                     event.damage = 1.0
                 }
             }

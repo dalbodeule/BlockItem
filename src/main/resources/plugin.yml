@@ -1,0 +1,12 @@
+name: BlockItem
+version: @version@
+main: space.mori.blockitem.BlockItem
+api-version: 1.13
+author:
+  - dalbodeule
+commands:
+permissions:
+  blockitem.use.*:
+    default: op
+  blockitem.armor.*:
+    default: op
