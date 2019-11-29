@@ -4,9 +4,57 @@ main: space.mori.blockitem.BlockItem
 api-version: 1.13
 author:
   - dalbodeule
-commands:
 permissions:
   blockitem.use.*:
     default: op
+    children:
+      - blockitem.use.BOW
+      - blockitem.use.WOODEN_AXE,
+      - blockitem.use.WOODEN_HOE,
+      - blockitem.use.WOODEN_PICKAXE,
+      - blockitem.use.WOODEN_SHOVEL,
+      - blockitem.use.WOODEN_SWORD,
+      - blockitem.use.STONE_AXE,
+      - blockitem.use.STONE_HOE,
+      - blockitem.use.STONE_PICKAXE,
+      - blockitem.use.STONE_SHOVEL,
+      - blockitem.use.STONE_SWORD,
+      - blockitem.use.IRON_AXE,
+      - blockitem.use.IRON_HOE,
+      - blockitem.use.IRON_PICKAXE,
+      - blockitem.use.IRON_SHOVEL,
+      - blockitem.use.IRON_SWORD,
+      - blockitem.use.GOLDEN_AXE,
+      - blockitem.use.GOLDEN_HOE,
+      - blockitem.use.GOLDEN_PICKAXE,
+      - blockitem.use.GOLDEN_SHOVEL,
+      - blockitem.use.GOLDEN_SWORD,
+      - blockitem.use.DIAMOND_AXE,
+      - blockitem.use.DIAMOND_HOE,
+      - blockitem.use.DIAMOND_PICKAXE,
+      - blockitem.use.DIAMOND_SHOVEL,
+      - blockitem.use.DIAMOND_SWORD
   blockitem.armor.*:
     default: op
+    children:
+      - blockitem.armor.TURTLE_HALMET
+      - blockitem.armor.LEATHER_HALMET
+      - blockitem.armor.LEATHER_CHESTPLATE
+      - blockitem.armor.LEATHER_LEGGINGS
+      - blockitem.armor.LEATHER_BOOTS
+      - blockitem.armor.CHAINMAIL_HALMET
+      - blockitem.armor.CHAINMAIL_CHESTPLATE
+      - blockitem.armor.CHAINMAIL_LEGGINGS
+      - blockitem.armor.CHAINMAIL_BOOTS
+      - blockitem.armor.IRON_HALMET
+      - blockitem.armor.IRON_CHESTPLATE
+      - blockitem.armor.IRON_LEGGINGS
+      - blockitem.armor.IRON_BOOTS
+      - blockitem.armor.GOLDEN_HALMET
+      - blockitem.armor.GOLDEN_CHESTPLATE
+      - blockitem.armor.GOLDEN_LEGGINGS
+      - blockitem.armor.GOLDEN_BOOTS
+      - blockitem.armor.DIAMOND_HALMET
+      - blockitem.armor.DIAMOND_CHESTPLATE
+      - blockitem.armor.DIAMOND_LEGGINGS
+      - blockitem.armor.DIAMOND_BOOTS
