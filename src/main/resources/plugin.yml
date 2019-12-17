@@ -1,60 +1,64 @@
 name: BlockItem
 version: @version@
 main: space.mori.blockitem.BlockItem
-api-version: 1.13
+api-version: 1.14
 author:
   - dalbodeule
 permissions:
-  blockitem.use.*:
+  blockitem.use:
     default: op
     children:
-      - blockitem.use.BOW
-      - blockitem.use.WOODEN_AXE,
-      - blockitem.use.WOODEN_HOE,
-      - blockitem.use.WOODEN_PICKAXE,
-      - blockitem.use.WOODEN_SHOVEL,
-      - blockitem.use.WOODEN_SWORD,
-      - blockitem.use.STONE_AXE,
-      - blockitem.use.STONE_HOE,
-      - blockitem.use.STONE_PICKAXE,
-      - blockitem.use.STONE_SHOVEL,
-      - blockitem.use.STONE_SWORD,
-      - blockitem.use.IRON_AXE,
-      - blockitem.use.IRON_HOE,
-      - blockitem.use.IRON_PICKAXE,
-      - blockitem.use.IRON_SHOVEL,
-      - blockitem.use.IRON_SWORD,
-      - blockitem.use.GOLDEN_AXE,
-      - blockitem.use.GOLDEN_HOE,
-      - blockitem.use.GOLDEN_PICKAXE,
-      - blockitem.use.GOLDEN_SHOVEL,
-      - blockitem.use.GOLDEN_SWORD,
-      - blockitem.use.DIAMOND_AXE,
-      - blockitem.use.DIAMOND_HOE,
-      - blockitem.use.DIAMOND_PICKAXE,
-      - blockitem.use.DIAMOND_SHOVEL,
-      - blockitem.use.DIAMOND_SWORD
-  blockitem.armor.*:
+      - blockitem.bow
+      - blockitem.crossbow
+      - blockitem.wooden_axe,
+      - blockitem.wooden_hoe,
+      - blockitem.wooden_pickaxe,
+      - blockitem.wooden_shovel,
+      - blockitem.wooden_sword,
+      - blockitem.stone_axe,
+      - blockitem.stone_hoe,
+      - blockitem.stone_pickaxe,
+      - blockitem.stone_shovel,
+      - blockitem.stone_sword,
+      - blockitem.iron_axe,
+      - blockitem.iron_hoe,
+      - blockitem.iron_pickaxe,
+      - blockitem.iron_shovel,
+      - blockitem.iron_sword,
+      - blockitem.golden_axe,
+      - blockitem.golden_hoe,
+      - blockitem.golden_pickaxe,
+      - blockitem.golden_shovel,
+      - blockitem.golden_sword,
+      - blockitem.diamond_axe,
+      - blockitem.diamond_hoe,
+      - blockitem.diamond_pickaxe,
+      - blockitem.diamond_shovel,
+      - blockitem.diamond_sword
+      - blockitem.bow
+      - blockitem.crossbow
+  blockitem.armor:
     default: op
     children:
-      - blockitem.armor.TURTLE_HALMET
-      - blockitem.armor.LEATHER_HALMET
-      - blockitem.armor.LEATHER_CHESTPLATE
-      - blockitem.armor.LEATHER_LEGGINGS
-      - blockitem.armor.LEATHER_BOOTS
-      - blockitem.armor.CHAINMAIL_HALMET
-      - blockitem.armor.CHAINMAIL_CHESTPLATE
-      - blockitem.armor.CHAINMAIL_LEGGINGS
-      - blockitem.armor.CHAINMAIL_BOOTS
-      - blockitem.armor.IRON_HALMET
-      - blockitem.armor.IRON_CHESTPLATE
-      - blockitem.armor.IRON_LEGGINGS
-      - blockitem.armor.IRON_BOOTS
-      - blockitem.armor.GOLDEN_HALMET
-      - blockitem.armor.GOLDEN_CHESTPLATE
-      - blockitem.armor.GOLDEN_LEGGINGS
-      - blockitem.armor.GOLDEN_BOOTS
-      - blockitem.armor.DIAMOND_HALMET
-      - blockitem.armor.DIAMOND_CHESTPLATE
-      - blockitem.armor.DIAMOND_LEGGINGS
-      - blockitem.armor.DIAMOND_BOOTS
+      - blockitem.turtle_helmet
+      - blockitem.leather_helmet
+      - blockitem.leather_chestplate
+      - blockitem.leather_leggings
+      - blockitem.leather_boots
+      - blockitem.chainmail_helmet
+      - blockitem.chainmail_chestplate
+      - blockitem.chainmail_leggings
+      - blockitem.chainmail_boots
+      - blockitem.iron_helmet
+      - blockitem.iron_chestplate
+      - blockitem.iron_leggings
+      - blockitem.iron_boots
+      - blockitem.golden_helmet
+      - blockitem.golden_chestplate
+      - blockitem.golden_leggings
+      - blockitem.golden_boots
+      - blockitem.diamond_helmet
+      - blockitem.diamond_chestplate
+      - blockitem.diamond_leggings
+      - blockitem.diamond_boots
+      - blockitem.elytra
