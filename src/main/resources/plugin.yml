@@ -5,60 +5,63 @@ api-version: 1.14
 author:
   - dalbodeule
 permissions:
-  blockitem.use:
-    default: op
-    children:
-      - blockitem.bow
-      - blockitem.crossbow
-      - blockitem.wooden_axe,
-      - blockitem.wooden_hoe,
-      - blockitem.wooden_pickaxe,
-      - blockitem.wooden_shovel,
-      - blockitem.wooden_sword,
-      - blockitem.stone_axe,
-      - blockitem.stone_hoe,
-      - blockitem.stone_pickaxe,
-      - blockitem.stone_shovel,
-      - blockitem.stone_sword,
-      - blockitem.iron_axe,
-      - blockitem.iron_hoe,
-      - blockitem.iron_pickaxe,
-      - blockitem.iron_shovel,
-      - blockitem.iron_sword,
-      - blockitem.golden_axe,
-      - blockitem.golden_hoe,
-      - blockitem.golden_pickaxe,
-      - blockitem.golden_shovel,
-      - blockitem.golden_sword,
-      - blockitem.diamond_axe,
-      - blockitem.diamond_hoe,
-      - blockitem.diamond_pickaxe,
-      - blockitem.diamond_shovel,
-      - blockitem.diamond_sword
-      - blockitem.bow
-      - blockitem.crossbow
   blockitem.armor:
     default: op
     children:
-      - blockitem.turtle_helmet
-      - blockitem.leather_helmet
-      - blockitem.leather_chestplate
-      - blockitem.leather_leggings
-      - blockitem.leather_boots
-      - blockitem.chainmail_helmet
-      - blockitem.chainmail_chestplate
-      - blockitem.chainmail_leggings
-      - blockitem.chainmail_boots
-      - blockitem.iron_helmet
-      - blockitem.iron_chestplate
-      - blockitem.iron_leggings
-      - blockitem.iron_boots
-      - blockitem.golden_helmet
-      - blockitem.golden_chestplate
-      - blockitem.golden_leggings
-      - blockitem.golden_boots
-      - blockitem.diamond_helmet
-      - blockitem.diamond_chestplate
-      - blockitem.diamond_leggings
-      - blockitem.diamond_boots
-      - blockitem.elytra
+      - blockitem.armor.turtle_helmet
+      - blockitem.armor.leather_helmet
+      - blockitem.armor.leather_chestplate
+      - blockitem.armor.leather_leggings
+      - blockitem.armor.leather_boots
+      - blockitem.armor.chainmail_helmet
+      - blockitem.armor.chainmail_chestplate
+      - blockitem.armor.chainmail_leggings
+      - blockitem.armor.chainmail_boots
+      - blockitem.armor.iron_helmet
+      - blockitem.armor.iron_chestplate
+      - blockitem.armor.iron_leggings
+      - blockitem.armor.iron_boots
+      - blockitem.armor.golden_helmet
+      - blockitem.armor.golden_chestplate
+      - blockitem.armor.golden_leggings
+      - blockitem.armor.golden_boots
+      - blockitem.armor.diamond_helmet
+      - blockitem.armor.diamond_chestplate
+      - blockitem.armor.diamond_leggings
+      - blockitem.armor.diamond_boots
+      - blockitem.armor.elytra
+  blockitem.potion:
+    default: op
+    children:
+      - blockitem.potion.absorption
+      - blockitem.potion.bad_omen
+      - blockitem.potion.blindness
+      - blockitem.potion.conduit_power
+      - blockitem.potion.confusion
+      - blockitem.potion.damage_resistance
+      - blockitem.potion.dolphins_grace
+      - blockitem.potion.fast_digging
+      - blockitem.potion.fire_resistance
+      - blockitem.potion.glowing
+      - blockitem.potion.harm
+      - blockitem.potion.heal
+      - blockitem.potion.health_boost
+      - blockitem.potion.hero_of_the_village
+      - blockitem.potion.hunger
+      - blockitem.potion.increase_damage
+      - blockitem.potion.invisibility
+      - blockitem.potion.jump
+      - blockitem.potion.levitation
+      - blockitem.potion.luck
+      - blockitem.potion.night_vision
+      - blockitem.potion.poison
+      - blockitem.potion.regeneration
+      - blockitem.potion.saturation
+      - blockitem.potion.slow
+      - blockitem.potion.slow_digging
+      - blockitem.potion.slow_falling
+      - blockitem.potion.speed
+      - blockitem.potion.unluck
+      - blockitem.potion.water_breathing
+      - blockitem.potion.weakness
+      - blockitem.potion.wither

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c75960ea-baab-43f0-b740-2ce09db6c422" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/space/mori/blockitem/EventHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/space/mori/blockitem/EventHandler.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
@@ -50,12 +48,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="BlockItem" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="BlockItem" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -205,6 +197,9 @@
       <workItem from="1575693549158" duration="147000" />
       <workItem from="1576580218679" duration="1567000" />
       <workItem from="1576582625718" duration="2307000" />
+      <workItem from="1576750993711" duration="1105000" />
+      <workItem from="1576752171574" duration="2019000" />
+      <workItem from="1577546665581" duration="5793000" />
     </task>
     <servers />
   </component>
@@ -220,22 +215,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1575200775207" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1576589082375">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1577552463047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576589082375" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1576589082375">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577552463047" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1577552463046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576589082375" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1576589082375">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577552463046" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1577552463046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576589082375" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1576589082375">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577552463046" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1577552463046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576589082375" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577552463046" />
     <state x="461" y="161" key="SettingsEditor" timestamp="1575174166157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
