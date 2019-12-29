@@ -44,7 +44,7 @@ object EventHandler: Listener {
                     getItemName(item) in Potion -> {
                         val potionName = (potionItem.itemMeta as PotionMeta).basePotionData.type.name.toLowerCase()
 
-                        if (!event.player.hasPermission("blockitem.armor.$potionName")) {
+                        if (!event.player.hasPermission("blockitem.potion.$potionName")) {
                             event.isCancelled = true
                             event.player.sendMessage("&4[!]&r You cannot use potion $potionName".getColored)
 
@@ -55,7 +55,7 @@ object EventHandler: Listener {
 
                         if (customEffects.size > 0) {
                             customEffects.forEach {
-                                if (!event.player.hasPermission("blockitem.armor.${it.type.name}")) {
+                                if (!event.player.hasPermission("blockitem.potion.${it.type.name}")) {
                                     event.isCancelled = true
                                     event.player.sendMessage("&4[!]&r You cannot use potion $potionName".getColored)
 

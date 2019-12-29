@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/space/mori/blockitem/EventHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/space/mori/blockitem/EventHandler.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +60,9 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="BlockItem" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -200,6 +202,7 @@
       <workItem from="1576750993711" duration="1105000" />
       <workItem from="1576752171574" duration="2019000" />
       <workItem from="1577546665581" duration="5793000" />
+      <workItem from="1577602204354" duration="149000" />
     </task>
     <servers />
   </component>
@@ -215,22 +218,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1575200775207" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1577552463047">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1577602352893">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577552463047" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1577552463046">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577602352893" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1577602352893">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577552463046" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1577552463046">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577602352893" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1577602352893">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577552463046" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1577552463046">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577602352893" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1577602352893">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577552463046" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577602352893" />
     <state x="461" y="161" key="SettingsEditor" timestamp="1575174166157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
