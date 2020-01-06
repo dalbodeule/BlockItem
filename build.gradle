@@ -30,12 +30,14 @@ repositories {
         name = 'spigotmc-repo'
         url = 'https://hub.spigotmc.org/nexus/content/groups/public/'
     }
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 
     compileOnly group: 'org.spigotmc', name: 'spigot-api', version: '1.14-R0.1-SNAPSHOT'
+    compileOnly 'com.github.Arnuh:ArmorEquipEvent:1.7.3'
 
     testImplementation group: 'junit', name: 'junit', version: '4.12'
 }

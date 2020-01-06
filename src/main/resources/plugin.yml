@@ -4,8 +4,10 @@ main: space.mori.blockitem.BlockItem
 api-version: 1.14
 author:
   - dalbodeule
+depend:
+  - ArmorEquipEvent
 permissions:
-  blockitem.armor:
+  blockitem.armor.*:
     default: op
     children:
       - blockitem.armor.turtle_helmet
@@ -30,7 +32,7 @@ permissions:
       - blockitem.armor.diamond_leggings
       - blockitem.armor.diamond_boots
       - blockitem.armor.elytra
-  blockitem.potion:
+  blockitem.potion.*:
     default: op
     children:
       - blockitem.potion.absorption
